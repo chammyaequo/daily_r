@@ -68,6 +68,6 @@ ggplot(
     scale_color_colorblind() # Using color blindness-friendly palette from ggthemes
 
     # Let's save the plot to a file using ggsave() function.
-ggsave("bill_depth_vs_bill_length.png", width = 10, height = 6)
+ggsave("bill_length_depth.png", width = 10, height = 6)
 
 # Voila! Exercise completed.
